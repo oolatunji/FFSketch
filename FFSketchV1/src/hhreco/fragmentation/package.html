@@ -1,0 +1,20 @@
+<!-- Copyright (c) 2003 The Regents of the University of California. -->
+<!-- All rights reserved. See the file COPYRIGHT for details.             -->
+
+<html>
+<head>
+<title>hhreco.recognition</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<P> This package provides the utilities for decomposing symbols into simpler, perceptually-salient structures, line segments (L) and elliptical segments (E). The idea of our technique is to use templates to direct fragmentation. Base on the template description of a symbol, the algorithm finds the globally optimized fitting for the symbol by identifying a set of breakpoints. We considered two types of templates in this work. The first type is an ordered sequence of L's and E's, and this is useful when the stroke order of a sketched symbol is known allowing easier and more efficient computation. However, stroke order information may not be available sometimes, so we also included the second type of template consisting of just the number of E's and the number of L's. The toolkit contains the implementation of two fragmentation algorithms, one for each type of templates. Both algorithms use dynamic programming technique to achieve optimal fragmentation in polynomial time. Detailed description of the algorithms can be found in the following publication:
+</P>
+<P>Helose Hse, Michael Shilman, and A. Richard Newton. "Robust Sketched Symbol Fragmentation using Templates." 2004 International Conference on Intelligent User Interfaces, Island of Madeira, Portugal. Jan 2004. pp. 156-160.
+</P>
+
+</body>
+</html>
+
+
+

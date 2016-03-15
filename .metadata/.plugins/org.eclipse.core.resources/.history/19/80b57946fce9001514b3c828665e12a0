@@ -1,0 +1,7 @@
+import hhreco.recognition.*;
+import hhreco.toolkit.*; //needed if you want to use the stroke filters
+import java.io.*;
+
+public class Test {
+	HHRecognizer reco = new HHRecognizer(); 
+}

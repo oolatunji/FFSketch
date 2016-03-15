@@ -1,0 +1,10 @@
+#!c:/cygwin/bin/bash
+#compile the source code
+rm */*.class */*/*.class;
+javac util/*.java;
+javac util/aelfred/*.java;
+javac classification/*.java;
+javac toolbox/*.java;
+javac recognition/*.java;
+javac fragmentation/*.java;
+javac apps/*.java;

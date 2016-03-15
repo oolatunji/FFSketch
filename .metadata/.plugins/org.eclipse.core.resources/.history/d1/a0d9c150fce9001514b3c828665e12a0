@@ -1,0 +1,1 @@
+c:/j2sdk1.4.2_03/bin/javadoc -version -classpath ".;e:/data/code/release;e:/data/code/release/hhreco/lib/libsvm.jar;e:/data/code/release/hhreco/lib/diva.jar" -J-mx64M -package -use -doctitle "HHreco API" hhreco.classification hhreco.fragmentation hhreco.recognition hhreco.toolbox hhreco.util hhreco.util.aelfred hhreco.apps
